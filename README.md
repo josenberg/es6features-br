@@ -1,11 +1,11 @@
 # ECMAScript 6 <sup>[git.io/es6features](http://git.io/es6features)</sup>
 
-## Introduction
-ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard.  ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009. Implementation of these features in major JavaScript engines is [underway now](http://kangax.github.io/es5-compat-table/es6/).
+## Introdução
+ECMAScript 6, tambem conhecido como ECMAScript 2015, é a ultima versão do ECMAScript standard.  ES6 é uma atualização significante para a linguagem, e a primeira atualização desde a ES5 se tornar padrão em 2009. A implementação dessas features nas principais engines JavaScript esta [acontecendo agora](http://kangax.github.io/es5-compat-table/es6/).
 
-See the [ES6 standard](http://www.ecma-international.org/ecma-262/6.0/) for full specification of the ECMAScript 6 language.
+Veja em [ES6 standard](http://www.ecma-international.org/ecma-262/6.0/) a especificação completa.
 
-ES6 includes the following new features:
+ES6 adiciona as seguintes novas features:
 - [arrows](#arrows)
 - [classes](#classes)
 - [enhanced object literals](#enhanced-object-literals)
@@ -31,21 +31,21 @@ ES6 includes the following new features:
 ## ECMAScript 6 Features
 
 ### Arrows
-Arrows are a function shorthand using the `=>` syntax.  They are syntactically similar to the related feature in C#, Java 8 and CoffeeScript.  They support both statement block bodies as well as expression bodies which return the value of the expression.  Unlike functions, arrows share the same lexical `this` as their surrounding code.
+Arrows é um atalho para funções usando o simbolo `=>`. Elas são escritas de modo similar do C#, Java 8 e CoffeScript. Elas funcionam dentro de blocos statement assim como dentro do retorno de expressões. Diferentes das funções, arrows compartilham o mesmo `this` lexical como o codigo onde são declaradas.
 
 ```JavaScript
-// Expression bodies
+// Dentro de expressões
 var odds = evens.map(v => v + 1);
 var nums = evens.map((v, i) => v + i);
 var pairs = evens.map(v => ({even: v, odd: v + 1}));
 
-// Statement bodies
+// Dentro de blocos Statement
 nums.forEach(v => {
   if (v % 5 === 0)
     fives.push(v);
 });
 
-// Lexical this
+// Funcionamento do this Lexical
 var bob = {
   _name: "Bob",
   _friends: [],
