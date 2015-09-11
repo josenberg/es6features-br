@@ -57,7 +57,7 @@ var bob = {
 ```
 
 ### Classes
-ES6 classes are a simple sugar over the prototype-based OO pattern.  Having a single convenient declarative form makes class patterns easier to use, and encourages interoperability.  Classes support prototype-based inheritance, super calls, instance and static methods and constructors.
+Classes ES6 são relativamente simples quando comparatas com o padrão prototype-based OO. Tendo apenas uma forma conveniente de declaração torna as classes faceis de usar, e encoraja a interoperabilidade. Classes suportam `herança prototype-based`, `super calls`, `instance`, `static methods` e `constructors`.
 
 ```JavaScript
 class SkinnedMesh extends THREE.Mesh {
@@ -85,7 +85,7 @@ class SkinnedMesh extends THREE.Mesh {
 }
 ```
 
-### Enhanced Object Literals
+###  Object Literals
 Object literals are extended to support setting the prototype at construction, shorthand for `foo: foo` assignments, defining methods, making super calls, and computing property names with expressions.  Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
 
 ```JavaScript
