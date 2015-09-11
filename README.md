@@ -85,8 +85,8 @@ class SkinnedMesh extends THREE.Mesh {
 }
 ```
 
-###  Object Literals
-Object literals are extended to support setting the prototype at construction, shorthand for `foo: foo` assignments, defining methods, making super calls, and computing property names with expressions.  Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
+### Objetos Literais
+Objetos Literais foram extendidos para suportar a `configuração do prototype na construção`, atalhos para `foo: foo` assignments, `defining methods`, `super calls`, e computing property names com expressões. Isso tambem faz com que objetos literais e classes ficam mais proximas, e deixa com que design object-based se beneficiem-se de alguma dessas vantagens.
 
 ```JavaScript
 var obj = {
