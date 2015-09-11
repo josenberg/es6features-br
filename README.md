@@ -183,7 +183,7 @@ f(...[1,2,3]) == 6
 ```
 
 ### Let + Const
-Block-scoped binding constructs.  `let` is the new `var`.  `const` is single-assignment.  Static restrictions prevent use before assignment.
+Block-scoped binding constructs. `let` é o novo `var`. `const` é single-assignment. Restrições Static são tem o uso previnido antes do assignment.
 
 
 ```JavaScript
