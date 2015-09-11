@@ -105,21 +105,21 @@ var obj = {
 ```
 
 ### Template Strings
-Template strings provide syntactic sugar for constructing strings.  This is similar to string interpolation features in Perl, Python and more.  Optionally, a tag can be added to allow the string construction to be customized, avoiding injection attacks or constructing higher level data structures from string contents.
+Template strings nos dá uma sintaxe melhor quando construimos strings. Isso é similar às features de string interpolation features em Perl ou em Python.  Opcionalmente, uma tag pode ser adicionada para fazer com que a construção de uma string seja constumizada, evitando ataques injection ou construindo estruturas de high level a partir do conteudo de strings.
 
 ```JavaScript
-// Basic literal string creation
+// Basica criação literal de strings
 `In JavaScript '\n' is a line-feed.`
 
-// Multiline strings
+// Multiplicando strings
 `In JavaScript this is
  not legal.`
 
-// String interpolation
+// Interpolação de Strings 
 var name = "Bob", time = "today";
 `Hello ${name}, how are you ${time}?`
 
-// Construct an HTTP request prefix is used to interpret the replacements and construction
+// Construindo um HTTP request prefix que é usado para interpretar mudanças
 GET`http://foo.org/bar?a=${a}&b=${b}
     Content-Type: application/json
     X-Credentials: ${credentials}
