@@ -561,7 +561,7 @@ Full reflection API nos tras as meta-operations do runtime-level nos objetos. Is
 ```
 
 ### Tail Calls
-Calls in tail-position are guaranteed to not grow the stack unboundedly.  Makes recursive algorithms safe in the face of unbounded inputs.
+Calls em tail-position são garantias para o não-crescimento de um stack sem controle. Fazendo com que algoritmos recursivos sejam seguros quando utilizando valores que podem ser infinitos (ou quase infinitos).
 
 ```JavaScript
 function factorial(n, acc = 1) {
@@ -570,7 +570,7 @@ function factorial(n, acc = 1) {
     return factorial(n - 1, n * acc);
 }
 
-// Stack overflow in most implementations today,
-// but safe on arbitrary inputs in ES6
+// Stack overflow na maior parte das implementações de hoje,
+// Porem segura com inputs arbitrarios na ES6
 factorial(100000)
 ```
