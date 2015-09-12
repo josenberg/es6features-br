@@ -362,7 +362,7 @@ System.set('jquery', Module({$: $})); // WARNING: not yet finalized
 ```
 
 ### Map + Set + WeakMap + WeakSet
-Efficient data structures for common algorithms.  WeakMaps provides leak-free object-key’d side tables.
+Estruturas de dados mais eficientes para algoritimos comuns. WeakMaps nos dá uma leak-free tabela object-key’d .
 
 ```JavaScript
 // Sets
