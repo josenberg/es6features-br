@@ -335,14 +335,14 @@ alert("2π = " + ln(e)*pi*2);
 ```
 
 ### Module Loaders
-Module loaders support:
-- Dynamic loading
-- State isolation
-- Global namespace isolation
+Module loaders suportam:
+- Loading dinamico
+- Isolação de Estado
+- Isolação Global de namespace
 - Compilation hooks
 - Nested virtualization
 
-The default module loader can be configured, and new loaders can be constructed to evaluate and load code in isolated or constrained contexts.
+O modulo loader padrão pode ser configurado, e novos loaders podem ser construidos para avaliar e carregar codigo em um contexto proximo ou isolado.
 
 ```JavaScript
 // Dynamic loading – ‘System’ is default loader
