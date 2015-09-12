@@ -499,7 +499,7 @@ arr.length == 2
 ```
 
 ### Math + Number + String + Array + Object APIs
-Many new library additions, including core Math libraries, Array conversion helpers, String helpers, and Object.assign for copying.
+Muitas novas bibliotecas de adição, incluindo bibliiotecas core Math, helpers para conversão de Arrays, helpers String, e Object.assign para copias.
 
 ```JavaScript
 Number.EPSILON
