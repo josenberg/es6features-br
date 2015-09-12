@@ -276,7 +276,7 @@ interface Generator extends Iterator {
 ```
 
 ### Unicode
-Non-breaking additions to support full Unicode, including new Unicode literal form in strings and new RegExp `u` mode to handle code points, as well as new APIs to process strings at the 21bit code points level.  These additions support building global apps in JavaScript.
+Melhorias no suporte à full Unicode, incluindo novas formas de Unicode literal em strings e tambem um novo modo `u` RegExp para lidar com code points, como tambem novas APIs para processar strings com um level de 21bit code. Essas adições faz com que o javascript possa ser escrito em qualquer idioma.
 
 ```JavaScript
 // same as ES5.1
