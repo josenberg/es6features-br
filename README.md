@@ -554,7 +554,7 @@ var p = timeout(1000).then(() => {
 ```
 
 ### Reflect API
-Full reflection API exposing the runtime-level meta-operations on objects.  This is effectively the inverse of the Proxy API, and allows making calls corresponding to the same meta-operations as the proxy traps.  Especially useful for implementing proxies.
+Full reflection API nos tras as meta-operations do runtime-level nos objetos. Isso é efetivamente o inverso do Proxy API, e permite fazer calls correspondestes às mesmas operações como as proxy traps. Especialmente uteis quando implementando proxies.
 
 ```JavaScript
 // No sample yet
