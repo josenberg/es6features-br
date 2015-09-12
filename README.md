@@ -535,7 +535,7 @@ Duas novas formas literais numeric foram adicionadas a binaria (`b`) e a octal (
 ```
 
 ### Promises
-Promises are a library for asynchronous programming.  Promises are a first class representation of a value that may be made available in the future.  Promises are used in many existing JavaScript libraries.
+Promises é a bibliioteca para programação assincrona. Promises é a primeira class representation de um valor que talvez esteja disponivel no futuro. Promisses são usadas em diversas bibliotecas já existentes dos JavaScript.
 
 ```JavaScript
 function timeout(duration = 0) {
