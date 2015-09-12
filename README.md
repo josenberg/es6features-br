@@ -526,8 +526,8 @@ Array.of(1, 2, 3) // Similar to new Array(...), but without special one-arg beha
 Object.assign(Point, { origin: new Point(0,0) })
 ```
 
-### Binary and Octal Literals
-Two new numeric literal forms are added for binary (`b`) and octal (`o`).
+### Binarios e Literais Octais
+Duas novas formas literais numeric foram adicionadas a binaria (`b`) e a octal (`o`).
 
 ```JavaScript
 0b111110111 === 503 // true
