@@ -440,7 +440,7 @@ var handler =
 ```
 
 ### Symbols
-Symbols enable access control for object state.  Symbols allow properties to be keyed by either `string` (as in ES5) or `symbol`.  Symbols are a new primitive type. Optional `description` parameter used in debugging - but is not part of identity.  Symbols are unique (like gensym), but not private since they are exposed via reflection features like `Object.getOwnPropertySymbols`.
+Symbols permitem o controle do estado dos objetos. Symbols permite que propriedades possam ser usadas como `string` (como na ES5) ou `symbol`. Simbolos são um novo tipo primitivo. Parametro opcional description `description` usado no debugging - Mas não fazendo parte da identidade. Symbols são unicos (como gensym), mas não são privados desde que eles são expostos via features de felection, como `Object.getOwnPropertySymbols`.
 
 
 ```JavaScript
