@@ -467,13 +467,13 @@ c["key"] === undefined
 ```
 
 ### Subclassable Built-ins
-In ES6, built-ins like `Array`, `Date` and DOM `Element`s can be subclassed.
+Na ES6, built-ins do tipo `Array`, `Date` e DOM `Element`s podem ser usados para fazer subclasses.
 
-Object construction for a function named `Ctor` now uses two-phases (both virtually dispatched):
-- Call `Ctor[@@create]` to allocate the object, installing any special behavior
-- Invoke constructor on new instance to initialize
+A construção para uma função chamada `Ctor` agora usa two-phases (ambas virtualmente separadas):
+- Call `Ctor[@@create]` para alocar o objeto, instalando qualquer comportamento especial
+- Invocando construtor ou uma nova instancia no initialize
 
-The known `@@create` symbol is available via `Symbol.create`.  Built-ins now expose their `@@create` explicitly.
+O symbol `@@create` esta disponivel via `Symbol.create`. Built-ins agora expõe seus `@@create` explicitamente.
 
 ```JavaScript
 // Pseudo-code of Array
