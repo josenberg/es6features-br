@@ -50,6 +50,7 @@ Você vai poder jogar fora a maior parte das variaveis de contexto que você cri
 
 
 ![](images/Venus_and_Cupid.jpg)
+
 "Cupido e suas arrows de puro amor;"
 
 Como arrows de cupido, essa nova feature do JavaScript sem duvidas é puro amorzinho.
