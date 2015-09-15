@@ -1,6 +1,5 @@
 #Definição
 
-
 Na especificação da [MDN10](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions) as expressões arrows são definidas como:
 
 > Uma expressão arrow function possui uma síntaxe mais curta quando comparada com expressões de função (function expressions) e vincula o valor de this de maneira léxica. Arrow functions sempre são anônimas.
@@ -49,3 +48,10 @@ No EcmaScript2015 você vai poder escrever ela sem precisar criar uma variavel p
 Você vai poder jogar fora a maior parte das variaveis de contexto que você cria apenas para usar uma vez, isso sem duvidas melhora a qualidade do codigo e diminiu o 'mapemento mental' que é necessario para entender determinadas funções.
 
 Como arrows de cupido, essa nova feature do JavaScript sem duvidas é puro amorzinho.
+
+
+
+
+(Eu tambem escrevi esse artigo no meu blog pessoal, assim se você quiser você pode se cadastrar no RSS e receber notificações de forma mais eficiente sobre o conteudo desse repositorio. [clique aqui para ver o POST](http://josenberg.com.br/ecmascript-6-1-arrows/))
+
+
