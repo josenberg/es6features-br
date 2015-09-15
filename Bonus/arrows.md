@@ -1,5 +1,8 @@
-#####Definição
+#Introdução
 
+As funções são anonimas tem a sintaxe bem simples e curta, mas elas poderiam ser encurtadas ainda mais, ter que escrever milhões de `functions(){}` acaba deixando seu codigo um pouco feio, isso é um dos motivos para se usar arrows, o segundo é o `this` lexical dele que difere do default das funções, ele tem o mesmo contexto de onde a função foi declarada, isso significa que você não vai precisar mais declarar `self`. Lindo não?
+
+##Definição
 
 Na especificação da [MDN10](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions) as expressões arrows são definidas como:
 
@@ -47,9 +50,6 @@ No EcmaScript2015 você vai poder escrever ela sem precisar criar uma variavel p
 ``
 
 Você vai poder jogar fora a maior parte das variaveis de contexto que você cria apenas para usar uma vez, isso sem duvidas melhora a qualidade do codigo e diminiu o 'mapemento mental' que é necessario para entender determinadas funções.
-
-
-![](images/Venus_and_Cupid.jpg)
 
 "Cupido e suas arrows de puro amor;"
 
