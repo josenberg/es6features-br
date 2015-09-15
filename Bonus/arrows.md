@@ -48,8 +48,4 @@ No EcmaScript2015 você vai poder escrever ela sem precisar criar uma variavel p
 
 Você vai poder jogar fora a maior parte das variaveis de contexto que você cria apenas para usar uma vez, isso sem duvidas melhora a qualidade do codigo e diminiu o 'mapemento mental' que é necessario para entender determinadas funções.
 
-Como arrows de cupido, essa nova feature do JavaScript é puro amorzinho.
-
-
-
-
+Como arrows de cupido, essa nova feature do JavaScript sem duvidas é puro amorzinho.
