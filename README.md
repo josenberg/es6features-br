@@ -104,9 +104,9 @@ var obj = {
 };
 ```
 
-###Enhanced Object Literals
+###Aprimoramento de Objetos Literais
 
-Object literals are extended to support setting the prototype at construction, shorthand for foo: foo assignments, defining methods, making super calls, and computing property names with expressions. Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
+Objetos Literais foram expandidos para suportar a configuração do prototype durante a sua construção, abreviações para `foo: foo assignments`, `defining methods`, fazer chamadas `super`, e o computing de `property names` com expressões. Juntos, eles deixam objetos literais e `class declarations` mais proximos, fazendo com que um design object-based tenha alguns beneficios.
 
 ```var obj = {
     // __proto__
