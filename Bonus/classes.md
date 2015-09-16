@@ -76,7 +76,7 @@ O construtor pode usar a keyword `super` para acessar o construtor da classe pai
             return this.height * this.width;
         }
     }
-``
+```
 
 ###Metodos estaticos
 
