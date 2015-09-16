@@ -7,12 +7,14 @@ Na verdade classes são `funções`, e assim como você pode definir funções c
 
 Uma das maneiras de definir classes é usando a forma `Class declarations`. Para declarar essa classe, você precisa usar a keywork class junto com o nome da classe. (Como no exemplo);
 
-``class Polygon {
-   constructor(height, width){
-      this.height = height;
-      this.width = width;
-   }
-}``
+```
+    class Polygon {
+        constructor(height, width){
+            this.height = height;
+            this.width = width;
+        }
+    }
+``
 
 Hoisting
 
@@ -25,21 +27,25 @@ Uma diferença importante entre `function delarations` e `class declarations` é
 
 `Class expressions` são apenas outro jeito de se declarar uma classe. Classes expressivas podem ou não possuir um nome. O nome é dado para essa classe quando é escrito antes do corpo dela.
 
-``//Unnamed
-var Polygon = class {
-   constructor(height, width){
-    this.height = height;
-    this.width = width;
-   }
-};`` 
+```
+    //Unnamed
+    var Polygon = class {
+        constructor(height, width){
+            this.height = height;
+            this.width = width;
+        }
+    };
+``` 
 
-``//named
-var Polygon = class Polygon {
-   constructor(height, width){
-    this.height = height;
-    this.width = width;
-   }
-};`` 
+```
+    //named
+    var Polygon = class Polygon {
+        constructor(height, width){
+            this.height = height;
+            this.width = width;
+        }
+    };
+``` 
 
 
 ###Class body and method definitions
@@ -57,62 +63,68 @@ O construtor pode usar a keyword `super` para acessar o construtor da classe pai
 ###Metodos Prototype
 "Em breve existirá um artigo explicando melhor essa parte".
 
-``class Polygon {
-  constructor(height, width){
-    this.height = height;
-    this.width = width;
-  }
-  getArea(){
-    return this.calArea();
-  }
-  calcArea(){
-    return this.height * this.width;
-  }
-}``
+```
+    class Polygon {
+        constructor(height, width){
+            this.height = height;
+            this.width = width;
+        }
+        getArea(){
+            return this.calArea();
+        }
+        calcArea(){
+            return this.height * this.width;
+        }
+    }
+``
 
 ###Metodos estaticos
 
 A keyword `static` define um metodo estatico para uma classe. Metodos estaticos podem ser chamados quando a classe ainda não foi instanciada. Eles são usados normalmente para definir funções de utilidade `utils` para uma aplicação. 
 
-```class Point {
-  constructor(x, y) {
-    this.x = x;
-    this.y = y;
-  }
+```
+    class Point {
+        constructor(x, y) {
+            this.x = x;
+            this.y = y;
+        }
   
-  static distance(a, b){
-    const dx = a.x - b.x;
-    const dy = a.y - b.y;
+        static distance(a, b){
+            const dx = a.x - b.x;
+            const dy = a.y - b.y;
     
-    return Math.sqrt(dx*dx + dy*dy);
-  }
-}
+            return Math.sqrt(dx*dx + dy*dy);
+        }
+    }
 
-const p1 = new Point(5, 5);
-const p2 = new Point(10, 10);
+    const p1 = new Point(5, 5);
+    const p2 = new Point(10, 10);
 
-console.log(Point.distance(p1, p2));```
+    console.log(Point.distance(p1, p2));
+```
 
 ###Criando uma subclass com extends
 
 A keyword `extends` é usada nas classes para criar ela sendo filha de outra classe (de um jeito semelhante ao do java).
 
 
-```class Animal {
-  constructor(name){
-    this.name = name;
-  }
+```
+    class Animal {
+        constructor(name){
+            this.name = name;
+        }
   
-  speak() {
-    console.log(this.name + " make a noise.")
-  }
-}
+        speak() {
+            console.log(this.name + " make a noise.")
+        }
+    }
 
-class Dog extends Animal {
-  speak() {
-    console.log(this.name + " barks.");
-  }
-}```
+    class Dog extends Animal {
+        speak() {
+            console.log(this.name + " barks.");
+        }
+    }
+```
 
 ###Chamar a classe pai com 'super'
 
