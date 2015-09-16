@@ -14,7 +14,7 @@ Uma das maneiras de definir classes é usando a forma `Class declarations`. Para
             this.width = width;
         }
     }
-``
+```
 
 Hoisting
 
