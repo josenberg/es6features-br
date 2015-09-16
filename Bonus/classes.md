@@ -1,5 +1,6 @@
+Não pense que classes no JavaScript é a implemantação de uma nova forma de orientação à objetos no JavaScript, a keyword class do EC6 serve como uma maneira mais simplificada e enxuta de trabalhar com objetos que usam herança baseadas em prototype. Essa nova sintaxe não torna deixa o JavaScript mais OO que ele era na EC5, a unica coisa que mudou é o jeito que você pode escrever esse tipo de objetos.
+
 ## Definição
-Classes no JavaScript são mais semanticas que a as existentes heranças baseadas em prototype. Essa sintaxe **NÃO** é a introdução de uma nova forma de orientação à objetos no JavaScript. É uma apenas uma nova sintaxe mais simples de criar e lidar com objetos que manipulam herença.
 
 Na verdade classes são `funções`, e assim como você pode definir funções como `function expressions` e como `function declarations` você tambem pode definir classes como `class expressions` e `class declarations`
 
