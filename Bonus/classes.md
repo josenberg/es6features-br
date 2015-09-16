@@ -1,9 +1,9 @@
-**Definição**
+## Definição
 Classes no JavaScript são mais semanticas que a as existentes heranças baseadas em prototype. Essa sintaxe **NÃO** é a introdução de uma nova forma de orientação à objetos no JavaScript. É uma apenas uma nova sintaxe mais simples de criar e lidar com objetos que manipulam herença.
 
 Na verdade classes são `funções`, e assim como você pode definir funções como `function expressions` e como `function declarations` você tambem pode definir classes como `class expressions` e `class declarations`
 
-**Class declarations**
+###Class declarations
 
 Uma das maneiras de definir classes é usando a forma `Class declarations`. Para declarar essa classe, você precisa usar a keywork class junto com o nome da classe. (Como no exemplo);
 
@@ -21,7 +21,7 @@ Uma diferença importante entre `function delarations` e `class declarations` é
 ``var p = new Polygon(); //ReferenceError``
 ``class Polygon {} ``
 
-**Class expressions**
+###Class expressions
 
 `Class expressions` são apenas outro jeito de se declarar uma classe. Classes expressivas podem ou não possuir um nome. O nome é dado para essa classe quando é escrito antes do corpo dela.
 
@@ -42,19 +42,19 @@ var Polygon = class Polygon {
 };`` 
 
 
-**Class body and method definitions**
+###Class body and method definitions
 
 O corpo da classe é a parte que esta entre chaves `{}`. isso é, onde você define os membros dessa classe, assim como methodos e construtores.
 
-**Strict Mode**
+###Strict Mode
 O corpo das classes é (tanto declarativa como o da expressiva) executado em strict mode.
 
-**Metodo Construtor**
+###Metodo Construtor
 O metodo construtor (`constructor`) é um metodo especial para a criação e inicialização de um objeto com a classe. Só pode existir um unico metodo ccom o nome de "construtor" em uma classe. Um SintaxError será lançado caso você aconteça de você ter mais de um metodo desse declarado dentro do sua classe.
 
 O construtor pode usar a keyword `super` para acessar o construtor da classe pai.
 
-**Metodos Prototype**
+###Metodos Prototype
 "Em breve existirá um artigo explicando melhor essa parte".
 
 ``class Polygon {
@@ -70,7 +70,7 @@ O construtor pode usar a keyword `super` para acessar o construtor da classe pai
   }
 }``
 
-**Metodos estaticos**
+###Metodos estaticos
 
 A keyword `static` define um metodo estatico para uma classe. Metodos estaticos podem ser chamados quando a classe ainda não foi instanciada. Eles são usados normalmente para definir funções de utilidade `utils` para uma aplicação. 
 
@@ -93,7 +93,7 @@ const p2 = new Point(10, 10);
 
 console.log(Point.distance(p1, p2));``
 
-**Criando uma subclass com extends**
+###Criando uma subclass com extends
 
 A keyword `extends` é usada nas classes para criar ela sendo filha de outra classe (de um jeito semelhante ao do java).
 
@@ -114,7 +114,7 @@ class Dog extends Animal {
   }
 }``
 
-**Chamar a classe pai com 'super'**
+###Chamar a classe pai com 'super'
 
 Você pode usar a keyword `super` para poder chamar uma função do mesmo nome se referindo à classe pai. É um pouco complicado abstrair isso só com essa frase, veja como funciona no exemplo abaixo.
 
