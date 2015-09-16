@@ -119,19 +119,21 @@ class Dog extends Animal {
 Você pode usar a keyword `super` para poder chamar uma função do mesmo nome se referindo à classe pai. É um pouco complicado abstrair isso só com essa frase, veja como funciona no exemplo abaixo.
 
 
-```class Cat { 
-    constructor(name) {
-      this.name = name;
+```
+    class Cat { 
+        constructor(name) {
+            this.name = name;
+        }
+        speak() {
+            console.log(this.name + ' makes a noise.');
+        }
     }
-    speak() {
-      console.log(this.name + ' makes a noise.');
-    }
-}
 
-class Lion extends Cat {
-  speak() {
-    super.speak();
-    console.log(this.name + ' roars.');
-  }
-}```
+    class Lion extends Cat {
+        speak() {
+            super.speak();
+            console.log(this.name + ' roars.');
+        }
+    }
+```
 
