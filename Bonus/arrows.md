@@ -34,7 +34,7 @@ Ele cria um array, e popula ele com os valores do primeiro array multiplicados p
 ```
     var numbers = [1, 4, 9];
     var doubles = numbers.map(num => num * 2);
-``
+```
 
 Outra vantagem é que ela compartilha o this lexico do escopo onde ela foi implementada, segue o exemplo tirado da MDN
 
