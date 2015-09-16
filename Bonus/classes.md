@@ -150,3 +150,4 @@ Você pode usar a keyword `super` para poder chamar uma função do mesmo nome s
     }
 ```
 
+(Eu tambem escrevi esse artigo no meu blog pessoal, assim se você quiser você pode se cadastrar no RSS e receber notificações de forma mais eficiente sobre o conteudo desse repositorio. [clique aqui para ver o POST](http://josenberg.com.br/ecmascript-classes/))
