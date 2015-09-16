@@ -74,7 +74,7 @@ O construtor pode usar a keyword `super` para acessar o construtor da classe pai
 
 A keyword `static` define um metodo estatico para uma classe. Metodos estaticos podem ser chamados quando a classe ainda não foi instanciada. Eles são usados normalmente para definir funções de utilidade `utils` para uma aplicação. 
 
-``class Point {
+```class Point {
   constructor(x, y) {
     this.x = x;
     this.y = y;
@@ -91,14 +91,14 @@ A keyword `static` define um metodo estatico para uma classe. Metodos estaticos 
 const p1 = new Point(5, 5);
 const p2 = new Point(10, 10);
 
-console.log(Point.distance(p1, p2));``
+console.log(Point.distance(p1, p2));```
 
 ###Criando uma subclass com extends
 
 A keyword `extends` é usada nas classes para criar ela sendo filha de outra classe (de um jeito semelhante ao do java).
 
 
-``class Animal {
+```class Animal {
   constructor(name){
     this.name = name;
   }
@@ -112,18 +112,14 @@ class Dog extends Animal {
   speak() {
     console.log(this.name + " barks.");
   }
-}``
+}```
 
 ###Chamar a classe pai com 'super'
 
 Você pode usar a keyword `super` para poder chamar uma função do mesmo nome se referindo à classe pai. É um pouco complicado abstrair isso só com essa frase, veja como funciona no exemplo abaixo.
 
 
-``class testeDeEstilo {
-  constructor()
-}``
-
-``class Cat { 
+```class Cat { 
     constructor(name) {
       this.name = name;
     }
@@ -137,5 +133,5 @@ class Lion extends Cat {
     super.speak();
     console.log(this.name + ' roars.');
   }
-}``
+}```
 
