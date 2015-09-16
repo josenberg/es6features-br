@@ -56,4 +56,4 @@ Você vai poder jogar fora a maior parte das variaveis de contexto que você cri
 Como arrows de cupido, essa nova feature do JavaScript sem duvidas é puro amorzinho.
 
 
-(Eu tambem escrevi esse artigo no meu blog pessoal, assim se você quiser você pode se cadastrar no RSS e receber notificações de forma mais eficiente sobre o conteudo desse repositorio. [clique aqui para ver o POST](http://josenberg.com.br/ecmascript-arrows/))
+(Eu tambem escrevi esse artigo no meu blog pessoal, assim se você quiser você pode se cadastrar no RSS e receber notificações de forma mais eficiente sobre o conteudo desse repositorio. [clique aqui para ver o artigo](http://josenberg.com.br/ecmascript-arrows/))
