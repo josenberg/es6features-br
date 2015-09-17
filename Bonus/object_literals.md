@@ -1,5 +1,4 @@
-_"You can find the entire cosmos lurking in its least remarkable objects."
-- Wislawa Szymborska_ 
+_"You can find the entire cosmos lurking in its least remarkable objects." - Wislawa Szymborska_ 
 
 Artigo escrito com base nesse outro [aqui](http://www.htmlgoodies.com/beyond/javascript/js-ref/new-ecmascript-2015-features-part-ii.html).
 
