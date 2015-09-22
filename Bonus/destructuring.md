@@ -1,9 +1,8 @@
-
 Atribuir o valor ou a referencia de uma variavel para outra é sem duvidas uma das coisas mais feitas em qualquer linguagem de programação, o destructuring assingment é uma maneira mais facil de trabalhar com isso, essa feature já existe no pearl ou no python, alem de adicionar facilidades no desenvolvimento JS ela tambem facilita a entrada de desenvolvedores dessas linguagens no javascript. 
 
 A sintax de destructuring assingment é uma expressão javascript que faz possivel extrair dados de um array ou objeto utilizando uma sintaxe que copia a construção desse array ou objeto literal.
 
-Syntax
+##Syntax
 
 ```
 [a, b] = [1, 2]
@@ -12,7 +11,7 @@ Syntax
 {a, b, ...rest} = {a:1, b:2, c:3, d:4}  //ES7
 ```
 
-**Descrição**
+##Descrição
 
 As expressões para objetos literais e arrays nos permitem uma maneira de criar pacotes _ad hoc_ de dados. Uma vez que você tenha criado esses pacotes, você pode usar eles da maneira que você quiser, você pode inclusive faze-los ser retorno de funções.
 
@@ -20,9 +19,9 @@ Uma coisa particularmente bacana que você pode fazer com destructuring assignme
 
 Essa feature é similar à features presentes no Pearl e no Python.
 
-**Array destructuring**
+##Array destructuring
 
-**Simple example**
+###Simple example
 
 ```
 var foo = ["one", "two", "three"];
@@ -36,7 +35,7 @@ var three = foo[2];
 var [one, two, three] = foo;
 ```
 
-**Assingment sem declaração**
+##Assingment sem declaração
 Essa sintaxe tambem pode ser utilizada sem estar usar variaveis recem criadas.
 
 ```
@@ -84,7 +83,7 @@ console.log("A é " + a);
 
 Nesse caso, o valor de A é um array contendo os valores de a e b.
 
-**Ignorando alguns dos valores retornados**
+###Ignorando alguns dos valores retornados
 
 ```
 function f(){
@@ -101,7 +100,7 @@ Depois de rodar esse codigo, `a = 1` e `b = 3`. O valor de 2 é ignorado. Você 
 [,,,] = f();
 ```
 
-**Recebendo valores baseados em uma expressão regular**
+###Recebendo valores baseados em uma expressão regular
 Quando o metodo de expressão regular `exec()` encontra um resultado, ele retorna um array retornar a porçção inteira da string na qual o resultado foi encontrado. destructuring assignment permite o mesmo tipo de comportamento, ignorando full match caso não seja necessaria.
 
 ```
@@ -112,8 +111,8 @@ var [, protocol, fullhost, fullpath] = parsedURL;
 consoles.log(protocol) // logs "https:"
 ```
 
-**Object destructuring**
-Exemplo simples
+##Object destructuring
+###Exemplo simples
 ```var o = {p: 42, q: true};
 var {p, q} = o;
 
@@ -127,8 +126,8 @@ console.log(foo); //42
 console.log(bar); //true
 ```
 
-**Function arguments default**
-Versão ES5
+##Function arguments default
+**Versão ES5**
 ```
 function drawES5Chart(options){
 	options = options === undefined ? {} : options;
@@ -139,7 +138,7 @@ function drawES5Chart(options){
 	// Aqui seria o codigo que renderiza o chart de verdade
 }
 ```
-Versão ES6
+**Versão ES6**
 ```
 function drawES6Chart({size = 'big', cords {x: 0, y: 0}. radius = 25} = {}){
     console.log(size, cords, radius);
@@ -151,7 +150,8 @@ drawES6Chart({
 	radius: 30
 });
 ```
-**Conclusão**
+
+##Conclusão
 
 Só pelo fato de você poder manipular o valor default das variaveis que serão usadas em seus metodos isso já é uma features bem supinpa, existem outras aplicação para essa feature na ECMAScript 2015, eu provavelmente irei fazer mais um artigo sobre isso logo, mas se você tiver algum conhecimento em ingles você pode ver o [artigo](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) em que eu baseiei (traduzi) esse texto. 
 
